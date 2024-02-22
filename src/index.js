@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function HelloW(){
+  return <h1 className='greet'> the text to show here!</h1>
+}
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HelloW />
   </React.StrictMode>
 );
 
